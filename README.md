@@ -1,37 +1,27 @@
 # basic-automation
+Name  : Yugo Aji Pamungkas
 
+Class : 07TPLE009
 
-## Install requirements
-
-  ### Install, create and activate virtualenv
-
-https://medium.com/analytics-vidhya/virtual-environment-6ad5d9b6af59
-
-
-### Install requirements
-
-    pip install -r requirements.txt
-
-### Install chromedriver
-go visit the official web 
-https://chromedriver.chromium.org/downloads
 
 ## Setup Web
-for this test we're using laravel web for testing
+for this test we're using php web for testing
 you can visit here, to access the repository
-https://github.com/agungperdananto/laravel-web
+https://github.com/yugo44pamungkas/ens-web
   
 
 ## Run test
-run web app at localhost using port 8000.
+run web app at localhost/ens.
 
 to run test use this command line
 
     robot project-demo/test-suite-1.robot
 
-the result will generate at **results** directory
+  ![image](https://github.com/yugo44pamungkas/robot-test-web-UAS/assets/85557454/adf94b2f-62db-45e8-88aa-832781dbbdfc)
 
-### Robot framework docs
-https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+## the result will generate at **results** directory
 
-~ good luck ~
+![image](https://github.com/yugo44pamungkas/robot-test-web-UAS/assets/85557454/3a7eedfb-1244-4a4e-bff8-a8e1c1d457a6)
+
+
+# Thank's
