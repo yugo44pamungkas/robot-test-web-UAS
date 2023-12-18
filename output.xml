@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231218 19:43:25.761" rpa="false" schemaversion="4">
+<suite id="s1" name="Test-Suite-1" source="C:\Python\Basic\basic-automation-main\project-web\test-suite-1.robot">
+<test id="s1-t1" name="testcase-1" line="16">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://localhost/ens/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231218 19:43:26.031" level="INFO">Opening browser 'chrome' to base url 'http://localhost/ens/'.</msg>
+<status status="PASS" starttime="20231218 19:43:26.031" endtime="20231218 19:43:27.941"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@id='open__nav-btn']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:27.941" level="INFO">Clicking element 'xpath://button[@id='open__nav-btn']'.</msg>
+<status status="PASS" starttime="20231218 19:43:27.941" endtime="20231218 19:43:28.008"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://a[contains(text(),'SIGN IN')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:28.008" level="INFO">Clicking element 'xpath://a[contains(text(),'SIGN IN')]'.</msg>
+<status status="PASS" starttime="20231218 19:43:28.008" endtime="20231218 19:43:28.104"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>xpath://input[@name='username_email']</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20231218 19:43:28.121" level="INFO">Current page contains element 'xpath://input[@name='username_email']'.</msg>
+<status status="PASS" starttime="20231218 19:43:28.105" endtime="20231218 19:43:28.121"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:username_email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:28.122" level="INFO">Typing text 'yugo501pamungkas@gmail.com' into text field 'name:username_email'.</msg>
+<status status="PASS" starttime="20231218 19:43:28.122" endtime="20231218 19:43:28.223"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${PASS-1}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:28.224" level="INFO">Typing text 'admin1234' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20231218 19:43:28.223" endtime="20231218 19:43:28.298"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:28.298" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<status status="PASS" starttime="20231218 19:43:28.298" endtime="20231218 19:43:28.493"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>xpath://a[contains(text(),'DASHBOARD')]</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20231218 19:43:28.513" level="INFO">Current page contains element 'xpath://a[contains(text(),'DASHBOARD')]'.</msg>
+<status status="PASS" starttime="20231218 19:43:28.493" endtime="20231218 19:43:28.513"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231218 19:43:28.514" endtime="20231218 19:43:30.656"/>
+</kw>
+<status status="PASS" starttime="20231218 19:43:26.031" endtime="20231218 19:43:30.656"/>
+</test>
+<test id="s1-t2" name="testcase-2" line="28">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://localhost/ens/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231218 19:43:30.656" level="INFO">Opening browser 'chrome' to base url 'http://localhost/ens/'.</msg>
+<status status="PASS" starttime="20231218 19:43:30.656" endtime="20231218 19:43:32.570"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@id='open__nav-btn']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:32.570" level="INFO">Clicking element 'xpath://button[@id='open__nav-btn']'.</msg>
+<status status="PASS" starttime="20231218 19:43:32.570" endtime="20231218 19:43:32.646"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://a[contains(text(),'SIGN IN')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:32.647" level="INFO">Clicking element 'xpath://a[contains(text(),'SIGN IN')]'.</msg>
+<status status="PASS" starttime="20231218 19:43:32.647" endtime="20231218 19:43:32.759"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>xpath://input[@name='username_email']</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20231218 19:43:32.780" level="INFO">Current page contains element 'xpath://input[@name='username_email']'.</msg>
+<status status="PASS" starttime="20231218 19:43:32.759" endtime="20231218 19:43:32.780"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:username_email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:32.781" level="INFO">Typing text 'yugo501pamungkas@gmail.com' into text field 'name:username_email'.</msg>
+<status status="PASS" starttime="20231218 19:43:32.780" endtime="20231218 19:43:32.895"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${PASS-2}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:32.896" level="INFO">Typing text 'yugo1234' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20231218 19:43:32.896" endtime="20231218 19:43:32.977"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:32.978" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<status status="PASS" starttime="20231218 19:43:32.978" endtime="20231218 19:43:33.125"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231218 19:43:33.126" endtime="20231218 19:43:35.295"/>
+</kw>
+<status status="PASS" starttime="20231218 19:43:30.656" endtime="20231218 19:43:35.295"/>
+</test>
+<test id="s1-t3" name="testcase-3" line="39">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://localhost/ens/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231218 19:43:35.295" level="INFO">Opening browser 'chrome' to base url 'http://localhost/ens/'.</msg>
+<status status="PASS" starttime="20231218 19:43:35.295" endtime="20231218 19:43:37.281"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@id='open__nav-btn']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:37.281" level="INFO">Clicking element 'xpath://button[@id='open__nav-btn']'.</msg>
+<status status="PASS" starttime="20231218 19:43:37.281" endtime="20231218 19:43:37.348"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://a[contains(text(),'SIGN IN')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:37.349" level="INFO">Clicking element 'xpath://a[contains(text(),'SIGN IN')]'.</msg>
+<status status="PASS" starttime="20231218 19:43:37.348" endtime="20231218 19:43:37.448"/>
+</kw>
+<kw name="Page Should Contain Element" library="SeleniumLibrary">
+<arg>xpath://input[@name='username_email']</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<msg timestamp="20231218 19:43:37.466" level="INFO">Current page contains element 'xpath://input[@name='username_email']'.</msg>
+<status status="PASS" starttime="20231218 19:43:37.449" endtime="20231218 19:43:37.466"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:username_email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:37.467" level="INFO">Typing text 'yugo501pamungkas@gmail.com' into text field 'name:username_email'.</msg>
+<status status="PASS" starttime="20231218 19:43:37.466" endtime="20231218 19:43:37.573"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name:password</arg>
+<arg>${PASS-1}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:37.574" level="INFO">Typing text 'admin1234' into text field 'name:password'.</msg>
+<status status="PASS" starttime="20231218 19:43:37.574" endtime="20231218 19:43:37.650"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@type='submit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:37.650" level="INFO">Clicking element 'xpath://button[@type='submit']'.</msg>
+<status status="PASS" starttime="20231218 19:43:37.650" endtime="20231218 19:43:37.901"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[@id='open__nav-btn']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:37.902" level="INFO">Clicking element 'xpath://button[@id='open__nav-btn']'.</msg>
+<status status="PASS" starttime="20231218 19:43:37.901" endtime="20231218 19:43:37.938"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://body/nav[1]/div[1]/ul[1]/li[7]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:37.938" level="INFO">Clicking element 'xpath://body/nav[1]/div[1]/ul[1]/li[7]'.</msg>
+<status status="PASS" starttime="20231218 19:43:37.938" endtime="20231218 19:43:37.981"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://a[contains(text(),'LOG OUT')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231218 19:43:37.981" level="INFO">Clicking element 'xpath://a[contains(text(),'LOG OUT')]'.</msg>
+<status status="PASS" starttime="20231218 19:43:37.981" endtime="20231218 19:43:38.076"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231218 19:43:38.076" endtime="20231218 19:43:40.210"/>
+</kw>
+<status status="PASS" starttime="20231218 19:43:35.295" endtime="20231218 19:43:40.210"/>
+</test>
+<status status="PASS" starttime="20231218 19:43:25.761" endtime="20231218 19:43:40.211"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Test-Suite-1">Test-Suite-1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
